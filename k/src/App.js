@@ -12,12 +12,14 @@ function App() {
         <div className="buttoncontainer">
           <MyButton></MyButton>
         </div>
-        <ul>
-          <li>min humidity__%</li>
-          <li>max humidity__%</li>
-          <li>min temperature__%</li>
-          <li>max temperature__%</li>
-        </ul>
+        <div className="buttoncontainer1">
+          <ul>
+            <li>min humidity__%</li>
+            <li className="max">max humidity__%</li>
+            <li>min temperature__%</li>
+            <li>max temperature__%</li>
+          </ul>
+        </div>
 
         <a
           className="App-link"
