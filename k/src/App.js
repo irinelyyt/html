@@ -9,6 +9,16 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <div className="buttoncontainer">
+          <MyButton></MyButton>
+        </div>
+        <ul>
+          <li>min humidity__%</li>
+          <li>max humidity__%</li>
+          <li>min temperature__%</li>
+          <li>max temperature__%</li>
+        </ul>
+
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -21,5 +31,7 @@ function App() {
     </div>
   );
 }
-
+function MyButton() {
+  return <button>I'm a button</button>;
+}
 export default App;
